@@ -1,4 +1,4 @@
-page 70312109 "BAC About AL Translation Tool"
+page 78609 "BAC About AL Translation Tool"
 {
     Caption = 'About AL Translation Tool';
     PageType = CardPart;

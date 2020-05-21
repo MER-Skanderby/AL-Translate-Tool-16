@@ -1,4 +1,4 @@
-codeunit 70312100 "BAC Google Translate Rest"
+codeunit 78600 "BAC Google Translate Rest"
 {
     procedure Translate(inSourceLang: Text[10]; inTargetLang: Text[10]; inText: Text[2048]) outTransText: text[2048]
     var

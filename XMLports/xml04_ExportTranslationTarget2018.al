@@ -1,4 +1,4 @@
-xmlport 70312104 "BAC Export Trans Target 2018"
+xmlport 78604 "BAC Export Trans Target 2018"
 {
     Caption = 'Export Translation Target 2018';
     DefaultNamespace = 'urn:oasis:names:tc:xliff:document:1.2';

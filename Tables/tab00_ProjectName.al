@@ -1,4 +1,4 @@
-table 70312100 "BAC Translation Project Name"
+table 78600 "BAC Translation Project Name"
 {
     Caption = 'Translation Project Name';
     DataClassification = SystemMetadata;

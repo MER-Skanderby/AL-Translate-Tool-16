@@ -1,11 +1,11 @@
-tableextension 70312100 "BAC Language Ext" extends Language
+tableextension 78600 "BAC Language Ext" extends Language
 {
     DrillDownPageId = "BAC Languages";
     LookupPageId = "BAC Languages";
 
     fields
     {
-        field(70312100; "BAC ISO code"; Text[10])
+        field(78600; "BAC ISO code"; Text[10])
         {
             Caption = 'ISO code';
             DataClassification = SystemMetadata;

@@ -1,4 +1,4 @@
-table 70312102 "BAC Translation Target"
+table 78602 "BAC Translation Target"
 {
     DataClassification = AccountData;
     Caption = 'Translation Target';

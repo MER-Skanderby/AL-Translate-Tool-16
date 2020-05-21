@@ -1,4 +1,4 @@
-table 70312103 "BAC Target Language"
+table 78603 "BAC Target Language"
 {
     DataClassification = SystemMetadata;
     Caption = 'Target Language';

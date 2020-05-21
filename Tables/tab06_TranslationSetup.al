@@ -1,4 +1,4 @@
-table 70312106 "BAC Translation Setup"
+table 78606 "BAC Translation Setup"
 {
     DataClassification = SystemMetadata;
     Caption = 'Translation Setup';

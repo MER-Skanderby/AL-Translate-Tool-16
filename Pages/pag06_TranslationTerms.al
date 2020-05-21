@@ -1,4 +1,4 @@
-page 70312106 "BAC Translation Terms"
+page 78606 "BAC Translation Terms"
 {
     Caption = 'Translation Terms';
     PageType = List;

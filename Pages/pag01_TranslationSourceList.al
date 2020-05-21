@@ -1,4 +1,4 @@
-page 70312101 "BAC Translation Source List"
+page 78601 "BAC Translation Source List"
 {
     PageType = List;
     SourceTable = "BAC Translation Source";

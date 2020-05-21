@@ -1,4 +1,4 @@
-page 70312107 "BAC Translation Setup"
+page 78607 "BAC Translation Setup"
 {
     PageType = Card;
     ApplicationArea = All;

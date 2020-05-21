@@ -1,4 +1,4 @@
-page 70312103 "BAC Translation Target List"
+page 78603 "BAC Translation Target List"
 {
     Caption = 'Translation Target List';
     PageType = List;

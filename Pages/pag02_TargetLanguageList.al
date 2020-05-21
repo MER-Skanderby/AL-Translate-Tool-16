@@ -1,4 +1,4 @@
-page 70312102 "BAC Target Language List"
+page 78602 "BAC Target Language List"
 {
     PageType = List;
     SourceTable = "BAC Target Language";

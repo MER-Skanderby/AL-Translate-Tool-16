@@ -1,4 +1,4 @@
-xmlport 70312101 "BAC Export Translation Target"
+xmlport 78601 "BAC Export Translation Target"
 {
     Caption = 'Export Translation Target';
     DefaultNamespace = 'urn:oasis:names:tc:xliff:document:1.2';
