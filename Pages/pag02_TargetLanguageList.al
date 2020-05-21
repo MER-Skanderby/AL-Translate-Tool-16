@@ -1,4 +1,4 @@
-page 78602 "BAC Target Language List"
+page 70312102 "BAC Target Language List"
 {
     PageType = List;
     SourceTable = "BAC Target Language";
@@ -56,9 +56,9 @@ page 78602 "BAC Target Language List"
                 PromotedOnly = true;
                 PromotedIsBig = true;
                 RunObject = page "BAC Translation Target List";
-                RunPageLink = "Project Code" = field ("Project Code"),
-                            "Target Language" = field ("Target Language"),
-                            "Target Language ISO code" = field ("Target Language ISO code");
+                RunPageLink = "Project Code" = field("Project Code"),
+                            "Target Language" = field("Target Language"),
+                            "Target Language ISO code" = field("Target Language ISO code");
             }
             action("Translation Terms")
             {
@@ -68,8 +68,8 @@ page 78602 "BAC Target Language List"
                 Promoted = true;
                 PromotedOnly = true;
                 RunObject = page "BAC Translation terms";
-                RunPageLink = "Project Code" = field ("Project Code"),
-                            "Target Language" = field ("Target Language");
+                RunPageLink = "Project Code" = field("Project Code"),
+                            "Target Language" = field("Target Language");
             }
             action("Export Translation File")
             {

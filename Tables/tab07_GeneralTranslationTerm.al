@@ -1,4 +1,4 @@
-table 78607 "BAC Gen. Translation Term"
+table 70312107 "BAC Gen. Translation Term"
 {
     Caption = 'General Translation Term';
     DataClassification = AccountData;
@@ -35,7 +35,7 @@ table 78607 "BAC Gen. Translation Term"
             Clustered = true;
         }
     }
-    
+
     trigger OnInsert()
     begin
         TestField("Target Language");

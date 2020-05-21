@@ -1,4 +1,4 @@
-page 78600 "BAC Trans Project List"
+page 70312100 "BAC Trans Project List"
 {
     Caption = 'Translation Projects';
     PageType = List;

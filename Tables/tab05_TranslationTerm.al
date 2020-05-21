@@ -1,4 +1,4 @@
-table 78605 "BAC Translation Term"
+table 70312105 "BAC Translation Term"
 {
     Caption = 'Translation Term';
     DataClassification = AccountData;

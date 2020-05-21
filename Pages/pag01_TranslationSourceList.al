@@ -1,4 +1,4 @@
-page 78601 "BAC Translation Source List"
+page 70312101 "BAC Translation Source List"
 {
     PageType = List;
     SourceTable = "BAC Translation Source";
@@ -25,9 +25,9 @@ page 78601 "BAC Translation Source List"
         {
             part(TransNotes; "BAC Translation Notes")
             {
-                ApplicationArea=All;
-                SubPageLink = "Project Code" = field ("Project Code"),
-                            "Trans-Unit Id" = field ("Trans-Unit Id");
+                ApplicationArea = All;
+                SubPageLink = "Project Code" = field("Project Code"),
+                            "Trans-Unit Id" = field("Trans-Unit Id");
             }
 
         }

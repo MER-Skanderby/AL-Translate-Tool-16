@@ -1,4 +1,4 @@
-page 78603 "BAC Translation Target List"
+page 70312103 "BAC Translation Target List"
 {
     Caption = 'Translation Target List';
     PageType = List;
@@ -41,14 +41,14 @@ page 78603 "BAC Translation Target List"
         {
             part(TransNotes; "BAC Translation Notes")
             {
-                ApplicationArea=All;
+                ApplicationArea = All;
                 SubPageLink = "Project Code" = field("Project Code"),
                             "Trans-Unit Id" = field("Trans-Unit Id");
                 Editable = false;
             }
             part(TargetFactbox; "BAC Trans Target Factbox")
             {
-                ApplicationArea=All;
+                ApplicationArea = All;
                 SubPageLink = "Project Code" = field("Project Code"),
                             "Trans-Unit Id" = field("Trans-Unit Id");
             }

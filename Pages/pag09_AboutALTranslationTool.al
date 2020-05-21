@@ -1,4 +1,4 @@
-page 78609 "BAC About AL Translation Tool"
+page 70312109 "BAC About AL Translation Tool"
 {
     Caption = 'About AL Translation Tool';
     PageType = CardPart;
@@ -14,7 +14,7 @@ page 78609 "BAC About AL Translation Tool"
 
                 Caption = 'About AL Translation Tool';
                 InstructionalText = 'Open-Source AL Translate Tool. Source code can be located at https://github.com/peikba/AL-Translate-Tool.';
-                
+
             }
             grid("App")
             {

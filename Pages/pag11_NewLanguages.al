@@ -1,4 +1,4 @@
-page 78611 "BAC Languages"
+page 70312111 "BAC Languages"
 {
     Caption = 'Languages (Translate Module)';
     PageType = List;

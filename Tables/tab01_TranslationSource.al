@@ -1,4 +1,4 @@
-table 78601 "BAC Translation Source"
+table 70312101 "BAC Translation Source"
 {
     DataClassification = AccountData;
     Caption = 'Translation Source';
@@ -29,17 +29,17 @@ table 78601 "BAC Translation Source"
         field(80; "size-unit"; Text[10])
         {
             DataClassification = AccountData;
-            Caption='size-unit';
+            Caption = 'size-unit';
         }
         field(90; "TranslateAttr"; Text[10])
         {
             DataClassification = AccountData;
-            Caption='TranslateAttr';
+            Caption = 'TranslateAttr';
         }
         field(100; "xml:space"; Text[10])
         {
             DataClassification = AccountData;
-            Caption='xml:space';
+            Caption = 'xml:space';
         }
         field(110; "Max Width"; Text[10])
         {

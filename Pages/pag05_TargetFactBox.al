@@ -1,4 +1,4 @@
-page 78605 "BAC Trans Target Factbox"
+page 70312105 "BAC Trans Target Factbox"
 {
     PageType = CardPart;
     SourceTable = "BAC Translation Target";

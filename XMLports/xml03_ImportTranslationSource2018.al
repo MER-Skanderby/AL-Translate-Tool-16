@@ -1,4 +1,4 @@
-xmlport 78603 "BAC Import Trans. Source 2018"
+xmlport 70312103 "BAC Import Trans. Source 2018"
 {
     Caption = 'Import Translation Source 2018';
     DefaultNamespace = 'urn:oasis:names:tc:xliff:document:1.2';

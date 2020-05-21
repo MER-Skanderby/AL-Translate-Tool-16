@@ -1,4 +1,4 @@
-xmlport 78601 "BAC Export Translation Target"
+xmlport 70312101 "BAC Export Translation Target"
 {
     Caption = 'Export Translation Target';
     DefaultNamespace = 'urn:oasis:names:tc:xliff:document:1.2';
@@ -94,7 +94,7 @@ xmlport 78601 "BAC Export Translation Target"
                             tableelement(note; "BAC Translation Notes")
                             {
                                 LinkTable = Target;
-                                LinkFields = "Project Code" = field ("Project Code"), "Trans-Unit Id" = field ("Trans-Unit Id");
+                                LinkFields = "Project Code" = field("Project Code"), "Trans-Unit Id" = field("Trans-Unit Id");
 
                                 fieldattribute(from; note.From)
                                 {

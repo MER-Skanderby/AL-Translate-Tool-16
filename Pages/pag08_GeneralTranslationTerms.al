@@ -1,4 +1,4 @@
-page 78608 "BAC Gen. Translation Terms"
+page 70312108 "BAC Gen. Translation Terms"
 {
     Caption = 'General Translation Terms';
     PageType = List;

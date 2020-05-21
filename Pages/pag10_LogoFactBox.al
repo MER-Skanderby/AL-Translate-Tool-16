@@ -1,4 +1,4 @@
-page 78610 "BAC AL Logo FactBox"
+page 70312110 "BAC AL Logo FactBox"
 {
     PageType = CardPart;
     SourceTable = "BAC Translation Setup";
