@@ -42,6 +42,12 @@ table 78600 "BAC Translation Project Name"
                     clear("Source Language ISO code");
             end;
         }
+        field(32; "Target Language"; Text[10])
+        {
+            Caption = 'Target Language';
+            DataClassification = AccountData;
+        }
+
         field(35; "Source Language ISO code"; Text[10])
         {
             Caption = 'Source Language';

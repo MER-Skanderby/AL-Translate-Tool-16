@@ -46,7 +46,11 @@ table 78601 "BAC Translation Source"
             DataClassification = AccountData;
             Caption = 'Max Width';
         }
-
+        field(120;"al-object-target";Text[100])
+        {
+            DataClassification=AccountData;
+            Caption='al-object-target';
+        }
     }
 
     keys

@@ -70,7 +70,7 @@ page 78600 "BAC Trans Project List"
                 Image = ImportCodes;
                 Promoted = true;
                 PromotedOnly = true;
-
+                PromotedCategory = Process;
                 trigger OnAction()
                 var
                     ImportSourceXML: XmlPort "BAC Import Translation Source";
@@ -104,9 +104,7 @@ page 78600 "BAC Trans Project List"
                     message(ImportedTxt, TransProject."File Name", "Project Code");
                 end;
             }
-        }
-        area(Navigation)
-        {
+
             action("Translation Source")
             {
                 ApplicationArea = All;
@@ -114,6 +112,7 @@ page 78600 "BAC Trans Project List"
                 Image = SourceDocLine;
                 Promoted = true;
                 PromotedOnly = true;
+                PromotedCategory = Process;
                 RunObject = page "BAC Translation Source List";
                 RunPageLink = "Project Code" = field("Project Code");
             }
@@ -124,6 +123,7 @@ page 78600 "BAC Trans Project List"
                 Image = Language;
                 Promoted = true;
                 PromotedOnly = true;
+                PromotedCategory = Process;
                 RunObject = page "BAC Target Language List";
                 RunPageLink = "Project Code" = field("Project Code"),
                 "Source Language" = field("Source Language"),

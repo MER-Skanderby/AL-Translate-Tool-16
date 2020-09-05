@@ -23,6 +23,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BAC Translation Project Name - Field Source Language - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2961263731 - Field 101975653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Language</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BAC Translation Project Name - Field Target Language - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2961263731 - Field 702113209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Language</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -122,6 +127,11 @@
           <source>Max Width</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BAC Translation Source - Field Max Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3559158354 - Field 2377891091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>al-object-target</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BAC Translation Source - Field al-object-target - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2707830334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Translation Target</source>

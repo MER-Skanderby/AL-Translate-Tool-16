@@ -4,5 +4,5 @@ Blog: https://dynamicsuser.net/nav/b/peik
 
 peik@b-a.dk
 
-This code is provided with no warranties of any kind, and you are using it entirely at your own responsibility.
-You are free to use and modify these objects as you like and with no limitations.
+'This code is provided with no warranties of any kind, and you are using it entirely at your own responsibility.'
+'You are free to use and modify these objects as you like and with no limitations.'

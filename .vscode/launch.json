@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Your own server",
+            "name": "Localhost",
             "type": "al",
             "request": "launch",
             "server": "http://localhost",

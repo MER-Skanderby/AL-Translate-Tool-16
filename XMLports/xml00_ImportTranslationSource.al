@@ -43,10 +43,13 @@ xmlport 78600 "BAC Import Translation Source"
                         if TransProject."Source Language ISO code" <> "source-language" then
                             error(WrongSourceLangTxt, TransProject.FieldCaption("Source Language"), TransProject."Source Language ISO code", "source-language");
                     end;
-
                 }
                 textattribute("target-language")
                 {
+                    trigger OnAfterAssignVariable()
+                    begin
+                        TransProject."Target Language" := "target-language";
+                    end;
                 }
                 textattribute(original)
                 {
@@ -85,7 +88,19 @@ xmlport 78600 "BAC Import Translation Source"
                                     source.TranslateAttr := translate;
                                 end;
                             }
+                            textattribute("xml")
+                            {
+                                Occurrence = Optional;
 
+                            }
+                            textattribute("al-object-target")
+                            {
+                                Occurrence = Optional;
+                                trigger OnAfterAssignVariable()
+                                begin
+                                    source."al-object-target" := "al-object-target";
+                                end;
+                            }
                             fieldelement(source; Source.Source)
                             {
                             }

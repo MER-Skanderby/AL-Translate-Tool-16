@@ -54,7 +54,7 @@ page 78602 "BAC Target Language List"
                 Image = Translate;
                 Promoted = true;
                 PromotedOnly = true;
-                PromotedIsBig = true;
+                PromotedCategory = Process;
                 RunObject = page "BAC Translation Target List";
                 RunPageLink = "Project Code" = field("Project Code"),
                             "Target Language" = field("Target Language"),
@@ -67,6 +67,7 @@ page 78602 "BAC Target Language List"
                 Image = BeginningText;
                 Promoted = true;
                 PromotedOnly = true;
+                PromotedCategory = Process;
                 RunObject = page "BAC Translation terms";
                 RunPageLink = "Project Code" = field("Project Code"),
                             "Target Language" = field("Target Language");
@@ -78,7 +79,7 @@ page 78602 "BAC Target Language List"
                 Image = ExportFile;
                 Promoted = true;
                 PromotedOnly = true;
-                PromotedIsBig = true;
+                PromotedCategory = Process;
                 trigger OnAction()
                 var
                     WarningTxt: Label 'Export the Translation file?';
@@ -111,7 +112,7 @@ page 78602 "BAC Target Language List"
                 Image = ImportLog;
                 Promoted = true;
                 PromotedOnly = true;
-                PromotedIsBig = true;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
